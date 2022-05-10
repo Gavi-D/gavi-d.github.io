@@ -10,7 +10,12 @@ body
     overflow: hidden;
 } */
 html {
+    scroll-behavior: smooth;
     background: #1e1a20;
+}
+nav {
+  display: inline;
+  top: 0%;
 }
 
 .webgl
@@ -34,7 +39,6 @@ html {
     padding-left: 10%;
     padding-right: 10%;
 }
-
 section:nth-child(odd)
 {
     justify-content: flex-end;
@@ -49,38 +53,71 @@ section:nth-child(odd)
     background-color: black
   } 
   */
-  #capstone {
+  #info_button {
+    color: white;
+    position: absolute;
+    background-color: transparent;
+    top: 0%;
+    font-size: medium;
+    border-top: inset;
+    border-left: inset;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    padding: 3px 15px;
+  }
+  #para {
     position:absolute;
-    left:20%;
+    left:10%;
     color: white;
     top:35%;
     background-color: transparent;
-    padding: 100px 100px;
-    font-size: xx-large;
-    font-family: 'Courier New', Courier, monospace;
+    padding: 100px;
+    font-size: 300%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: none
+  }
+  #breif {
+    position:absolute;
+    text-align: center;
+    color: white;
+    top:90%;
+    background-color: transparent;
+    padding: 100px;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
   }
   #papers {
     position:absolute;
     right:10%;
     color: white;
+    text-align: center;
     top:135%;
     background-color: transparent;
-    padding: 100px 100px;
+    padding: 10px 20px;
     font-size: xx-large;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    border: none
+    font-family:Georgia, 'Times New Roman', Times, serif
   }
-  #info {
+  #projects {
     position:absolute;
-    left:20%;
+    left:15%;
     color: white;
     top:230%;
     background-color: transparent;
-    padding: 100px 100px;
+    padding: 10px 20px;
     font-size: xx-large;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: none
+    font-family:'Courier New', Courier, monospace;
+  }
+  #redtalk {
+    position:absolute;
+    right:15%;
+    color: white;
+    text-align: center;
+    top:313%;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
 /*# sourceMappingURL=main.css.map*/
