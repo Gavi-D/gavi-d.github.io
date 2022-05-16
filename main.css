@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #1e1a20;
 
 }
 
@@ -132,7 +131,7 @@ section:nth-child(odd)
     text-align: center;
     color: white;
     background-color: transparent;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   #papers {
     position:relative;
@@ -161,7 +160,18 @@ section:nth-child(odd)
     background-color: transparent;
     margin: 0 auto;
     padding: 10px 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #connect_a {
+    position:relative;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 30px 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 50%;
   }
 
 /*# sourceMappingURL=main.css.map*/
